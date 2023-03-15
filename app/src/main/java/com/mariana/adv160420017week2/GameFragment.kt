@@ -34,8 +34,8 @@ class GameFragment : Fragment() {
 
         btnSubmit.setOnClickListener {
             val playersResult = txtAnswer.text.toString().toInt()
-
             var playerScore = 0
+
             if (playersResult == result){
                 playerScore = 100
             }
